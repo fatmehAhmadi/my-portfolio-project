@@ -4,5 +4,25 @@
 @tailwind utilities;
 
 body {
-  background-image: url("/galaxy.jpg");
+  background: url("/galaxy.jpg"), rgba(0, 0, 0, 0.616);
+  background-blend-mode: overlay;
+  background-size: cover;
+  height: 100%;
+}
+
+.project-container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: auto;
+}
+
+.project-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Change color and opacity as needed */
+  pointer-events: none; /* Allow interactions with the video */
 }

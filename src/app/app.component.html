@@ -1,67 +1,110 @@
-<header>
+<header class="mb-20">
+  <div class="inline-flex items-center justify-end w-full">
+    <hr
+      class="min-w-full mx-28 h-0.5 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"
+    />
+    <div
+      class="absolute px-4 -translate-x-1/2 bg-white left-3/4 dark:bg-gray-950"
+    >
+      <p class="text-gray-400">fatemeh.aghaahmadi879&#64;gmail.com</p>
+    </div>
+  </div>
+
   <div class="flex my-3">
     <img
-      src="/profile.PNG"
-      class="rounded-full border-2 border-lime-200 me-3"
+      src="/profile.jpg"
+      class="w-36 h-36 object-cover rounded-full border-2 border-lime-200 me-3"
       alt="profile picture"
     />
-    <div class="text-gray-300">
+    <div>
       <div class="flex">
         <h1 class="font-bold text-xl my-2">Fatemeh Ahmadi</h1>
-        <img src="/tick.png" alt="tick" class="w-5 h-5" />
+
+        <img src="/tick.png" alt="tick" class="w-5 h-5 my-auto mx-2" />
       </div>
       <div class="leading-5">
-        <div>front-end developer</div>
-        <div>Angular | TS | tailwind | Sass</div>
+        <div>Front-end developer</div>
+        <div class="text-xl">
+          <i class="fa-brands fa-angular"></i> | TS |
+          <img
+            src="https://cdn.icon-icons.com/icons2/2148/PNG/512/tailwind_icon_131947.png"
+            alt="tailwind icon"
+            class="w-6 brightness-0 invert inline-block"
+          />
+          | <i class="fa-brands fa-bootstrap"></i> |
+          <i class="fa-brands fa-sass"></i>
+        </div>
       </div>
     </div>
   </div>
-  <button
-    class="bg-lime-200 hover:bg-blue-700 text-black py-1 px-4 rounded-full"
-  >
-    contact
-  </button>
-  <button
-    class="bg-gray-200 hover:bg-blue-700 text-black py-1 px-0 rounded-full"
-  >
-    linkedin
-  </button>
-  <button
-    class="bg-gray-200 hover:bg-blue-700 text-black py-1 px-0 rounded-full"
-  >
-    github
-  </button>
-  <p class="text-gray-300">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia corporis
-    consequuntur, sunt in cupiditate error soluta aperiam dolore eos aliquid rem
-    cum tempore, beatae at architecto odio, fugit facilis animi? Ipsam, quisquam
-    odio? Obcaecati, voluptas laboriosam totam laborum exercitationem beatae
-    provident non unde labore deserunt mollitia eveniet nostrum eligendi earum
-    officiis ipsum sit molestiae quibusdam quisquam adipisci nihil, saepe amet.
-    .
+  <div class="my-6">
+    <a
+      href="#footer"
+      class="bg-lime-200 hover:bg-lime-400 text-black py-1 px-4 rounded-full me-2"
+    >
+      <i class="fa-regular fa-envelope"></i> contact</a
+    >
+    <a
+      href="https://ir.linkedin.com/in/fatemeh-ahmadi-profile?trk=people-guest_people_search-card"
+      target="_blank"
+      class="bg-gray-700 text-gray-300 py-1 hover:bg-gray-800 px-2 rounded-full me-2"
+    >
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a
+      href="https://github.com/fatmehAhmadi"
+      target="_blank"
+      class="bg-gray-700 text-gray-300 py-1 hover:bg-gray-800 px-2 rounded-full me-2"
+    >
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
+  <p>
+    I am an experienced Angular developer with a strong foundation in
+    TypeScript, Sass, Tailwind CSS, and Bootstrap. With a passion for creating
+    dynamic and responsive web applications, I specialize in leveraging modern
+    front-end technologies to deliver high-quality, user-friendly solutions.
   </p>
 </header>
-<content><h1>Projects</h1></content>
-<footer>
-  <h1>lets work todether</h1>
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem dolorum
-    doloribus obcaecati cumque perferendis expedita officiis iste, ab, corporis
-    perspiciatis unde magnam.
-  </p>
-  <button
-    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-  >
-    contact
-  </button>
-  <button
-    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-  >
-    linkedin
-  </button>
-  <button
-    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-  >
-    github
-  </button>
+<content class="mb-20"
+  ><h1 class="font-bold text-xl mb-10">Projects</h1>
+  <div class="project-container">
+    <video controls class="w-full rounded-xl">
+      <source src="/timetracker.mp4" type="video/mp4" />
+    </video>
+    <div class="overlay">
+      <h1 class="font-bold text-xl my-3">Time Tracker</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+        corporis consequuntur, sunt in cupiditate error soluta aperiam dolore
+        eos aliquid rem cum tempore, beatae at architecto odio, fugit facilis
+        animi?
+      </p>
+    </div>
+  </div></content
+>
+<footer
+  id="footer"
+  class="bg-lime-200 text-black p-10 rounded-2xl text-center my-16 w-1/2"
+>
+  <h1 class="font-bold text-xl">let's work todether</h1>
+  <p>Let's build something amazing together!</p>
+  <div class="my-6">
+    <a
+      class="bg-black text-gray-300 hover:bg-gray-900 py-1.5 px-4 rounded-full me-2"
+    >
+      <i class="fa-regular fa-envelope"></i>
+      contact
+    </a>
+    <a
+      class="bg-black text-gray-300 py-1 hover:bg-gray-900 px-2 rounded-full me-2"
+    >
+      <i class="fa-brands fa-linkedin-in"></i>
+    </a>
+    <a
+      class="bg-black text-gray-300 py-1 hover:bg-gray-900 px-2 rounded-full me-2"
+    >
+      <i class="fa-brands fa-github"></i>
+    </a>
+  </div>
 </footer>
