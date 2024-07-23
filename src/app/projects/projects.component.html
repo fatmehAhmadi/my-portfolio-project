@@ -1,0 +1,17 @@
+<div class="project-container">
+  <!-- <video controls class="w-full rounded-xl">
+    <source src="/timetracker.mp4" type="video/mp4" />
+  </video> -->
+  <img [src]="src" class="w-full h-96 rounded-xl" />
+  <div class="overlay"></div>
+</div>
+
+<h1 class="font-bold text-xl my-3">{{ title }}</h1>
+<p class="mb-3">
+  {{ desc }}
+</p>
+<div>
+  @for (tech of techs; track $index) {
+  <button class="bg-gray-700 rounded-full px-4 m-1">{{ tech }}</button>
+  }
+</div>

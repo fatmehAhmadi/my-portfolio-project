@@ -68,22 +68,32 @@
 </header>
 <content class="mb-20"
   ><h1 class="font-bold text-xl mb-10">Projects</h1>
-  <div class="project-container">
-    <video controls class="w-full rounded-xl">
-      <source src="/timetracker.mp4" type="video/mp4" />
-    </video>
-    <div class="overlay">
-      <h1 class="font-bold text-xl my-3">Time Tracker</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
-        corporis consequuntur
-      </p>
-    </div>
-  </div></content
->
+  <div class="grid lg:grid-cols-2 gap-11 grid-cols-1">
+    <app-projects
+      title="Time Tracker"
+      desc=" An application to record time for your tasks with Persian date for multiple
+    users with two defferent designs."
+      src="/timetrackergif.gif"
+      [techs]="[
+        'html',
+        'css',
+        'angular',
+        'material',
+        'typescript',
+        'rxjs',
+        'Bootstrap'
+      ]"
+    ></app-projects>
+    <app-projects
+      title="Weather app"
+      desc="You can search your any city to know the wather'"
+      src="/weather.png"
+      [techs]="['html', 'css', 'javascript']"
+    ></app-projects></div
+></content>
 <footer
   id="footer"
-  class="bg-lime-200 text-black p-10 rounded-3xl text-center my-16 lg:w-1/2 sm:w-full"
+  class="bg-lime-200 text-black p-10 rounded-3xl text-center mt-32 mb-16 lg:w-1/2 sm:w-full me-auto ms-auto"
 >
   <h1 class="font-bold text-xl">let's work todether</h1>
   <p>Let's build something amazing together!</p>
