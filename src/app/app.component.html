@@ -1,71 +1,79 @@
-<header class="mb-20">
-  <div class="inline-flex items-center justify-end w-full">
-    <hr
-      class="min-w-full mx-28 h-0.5 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"
-    />
-    <div
-      class="absolute px-4 -translate-x-1/2 bg-white left-3/4 dark:bg-gray-950"
-    >
-      <p class="text-gray-400">fatemeh.aghaahmadi879&#64;gmail.com</p>
-    </div>
+<div class="inline-flex items-center justify-end w-full">
+  <hr
+    class="hr min-w-full mx-28 h-0.5 my-8 bg-gray-200 border-0 rounded dark:bg-gray-700"
+  />
+  <div
+    class="absolute px-4 -translate-x-1/2 bg-white left-3/4 dark:bg-gray-950"
+  >
+    <p class="text-gray-400">fatemeh.aghaahmadi879&#64;gmail.com</p>
   </div>
+</div>
+<header class="mb-20 lg:mx-auto">
+  <div>
+    <div class="flex my-3">
+      <img
+        src="/profile.jpg"
+        class="w-36 h-36 object-cover rounded-full border-2 border-lime-200 me-3"
+        alt="profile picture"
+      />
+      <div>
+        <div class="flex">
+          <h1 class="font-bold text-xl my-2">Fatemeh Ahmadi</h1>
 
-  <div class="flex my-3">
-    <img
-      src="/profile.jpg"
-      class="w-36 h-36 object-cover rounded-full border-2 border-lime-200 me-3"
-      alt="profile picture"
-    />
-    <div>
-      <div class="flex">
-        <h1 class="font-bold text-xl my-2">Fatemeh Ahmadi</h1>
-
-        <img src="/tick.png" alt="tick" class="w-5 h-5 my-auto mx-2" />
-      </div>
-      <div class="leading-5">
-        <div>Front-end developer</div>
-        <div class="text-xl">
-          <i class="fa-brands fa-angular"></i> |
-          <img
-            src="https://cdn.icon-icons.com/icons2/2148/PNG/512/tailwind_icon_131947.png"
-            alt="tailwind icon"
-            class="w-6 brightness-0 invert inline-block"
-          />
-          | <i class="fa-brands fa-bootstrap"></i> |
-          <i class="fa-brands fa-sass"></i>
+          <img src="/tick.png" alt="tick" class="w-5 h-5 my-auto mx-2" />
+        </div>
+        <div class="leading-5">
+          <div>Front-end developer</div>
+          <div class="text-xl">
+            <i class="fa-brands fa-angular"></i> |
+            <img
+              src="https://cdn.icon-icons.com/icons2/2148/PNG/512/tailwind_icon_131947.png"
+              alt="tailwind icon"
+              class="w-6 brightness-0 invert inline-block"
+            />
+            | <i class="fa-brands fa-bootstrap"></i> |
+            <i class="fa-brands fa-sass"></i>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="my-6">
-    <a
-      href="#footer"
-      class="bg-lime-200 hover:bg-lime-400 text-black py-1 px-4 rounded-full me-2"
-    >
-      <i class="fa-regular fa-envelope"></i> contact</a
-    >
-    <a
-      href="https://ir.linkedin.com/in/fatemeh-ahmadi-profile?trk=people-guest_people_search-card"
-      target="_blank"
-      class="bg-gray-700 text-gray-300 py-1 hover:bg-gray-800 px-2 rounded-full me-2"
-    >
-      <i class="fa-brands fa-linkedin-in"></i>
-    </a>
-    <a
-      href="https://github.com/fatmehAhmadi"
-      target="_blank"
-      class="bg-gray-700 text-gray-300 py-1 hover:bg-gray-800 px-2 rounded-full me-2"
-    >
-      <i class="fa-brands fa-github"></i>
-    </a>
+    <div class="my-6">
+      <a
+        href="#footer"
+        class="bg-lime-200 hover:bg-lime-400 text-black py-1 px-4 rounded-full me-2"
+      >
+        <i class="fa-regular fa-envelope"></i> contact</a
+      >
+      <a
+        href="https://ir.linkedin.com/in/fatemeh-ahmadi-profile?trk=people-guest_people_search-card"
+        target="_blank"
+        class="bg-gray-700 text-gray-300 py-1 hover:bg-gray-800 px-2 rounded-full me-2"
+      >
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a
+        href="https://github.com/fatmehAhmadi"
+        target="_blank"
+        class="bg-gray-700 text-gray-300 py-1 hover:bg-gray-800 px-2 rounded-full me-2"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </div>
   </div>
   <p>
     I am an experienced Angular developer with a strong foundation in
     TypeScript, Sass, Tailwind CSS, and Bootstrap. With a passion for creating
     dynamic and responsive web applications, I specialize in leveraging modern
     front-end technologies to deliver high-quality, user-friendly solutions.
+    <br />Throughout my career, I have developed a keen eye for detail and a
+    commitment to writing clean, maintainable code. My expertise in Angular
+    allows me to build robust single-page applications (SPAs) that provide
+    seamless user experiences. Additionally, my proficiency in TypeScript
+    enhances my ability to write more predictable and error-free code, leading
+    to more stable and scalable applications.
   </p>
 </header>
+
 <content class="mb-20"
   ><h1 class="font-bold text-xl mb-10">Projects</h1>
   <div class="grid lg:grid-cols-2 gap-11 grid-cols-1">
@@ -73,7 +81,9 @@
       title="Time Tracker"
       desc=" An application to record time for your tasks with Persian date for multiple
     users with two defferent designs."
-      src="/timetrackergif.gif"
+      imgsrc="/timetrackergif.gif"
+      demoLink="https://drive.google.com/file/d/1OAIMjsyD7FCTU9F8hrnNf7psyQdpNHip/view?usp=sharing"
+      githubLink="https://github.com/fatmehAhmadi/timeTracker-Angular"
       [techs]="[
         'html',
         'css',
@@ -87,7 +97,9 @@
     <app-projects
       title="Weather app"
       desc="You can search your any city to know the wather'"
-      src="/weather.png"
+      imgsrc="/weather.png"
+      demoLink="https://imaginative-liger-0f3224.netlify.app/"
+      githubLink="https://github.com/fatmehAhmadi/My-Weather-app"
       [techs]="['html', 'css', 'javascript']"
     ></app-projects></div
 ></content>
@@ -106,11 +118,15 @@
     </a>
     <a
       class="bg-black text-gray-300 py-1 hover:bg-gray-900 px-2 rounded-full me-2"
+      href="https://ir.linkedin.com/in/fatemeh-ahmadi-profile?trk=people-guest_people_search-card"
+      target="_blank"
     >
       <i class="fa-brands fa-linkedin-in"></i>
     </a>
     <a
       class="bg-black text-gray-300 py-1 hover:bg-gray-900 px-2 rounded-full me-2"
+      href="https://github.com/fatmehAhmadi"
+      target="_blank"
     >
       <i class="fa-brands fa-github"></i>
     </a>

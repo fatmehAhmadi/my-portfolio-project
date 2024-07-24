@@ -11,5 +11,7 @@ export class ProjectsComponent {
   @Input() title: string = '';
   @Input() desc: string = '';
   @Input() techs: string[] = [];
-  @Input() src: string = '';
+  @Input() imgsrc: string = '';
+  @Input() demoLink: string = '';
+  @Input() githubLink: string = '';
 }
